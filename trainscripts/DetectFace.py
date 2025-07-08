@@ -11,7 +11,7 @@ import os
 DISPLAY_WINDOW = True  # Set to False if running on headless server (no GUI)
 
 # --- Load classifier and labels ---
-classifier_path = 'face_classifier2.pkl'
+classifier_path = '../face_classifier2.pkl'
 # labels_path = 'student_labels1.npy'
 
 if not os.path.exists(classifier_path):
@@ -70,7 +70,7 @@ while True:
                     if name not in seen_names:
                         seen_names.add(name)
                         timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                        with open("attendance_log.txt", "a") as f:
+                        with open("../attendance_log.txt", "a") as f:
                             f.write(f"{timestamp} - {name} - Confidence: {pred_prob:.2f}\n")
                         print(f"📝 Attendance marked for: {name}")
                 else:

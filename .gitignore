@@ -42,3 +42,5 @@ railway.json
 __pycache__/
 venv/
 .env
+
+/trainscripts

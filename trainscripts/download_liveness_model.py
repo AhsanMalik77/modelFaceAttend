@@ -2,7 +2,7 @@ import requests
 from tqdm import tqdm
 
 url = "https://github.com/davisking/dlib-models/raw/master/shape_predictor_68_face_landmarks.dat"
-filename = "shape_predictor_68_face_landmarks.dat"
+filename = "../shape_predictor_68_face_landmarks.dat"
 
 print("Downloading Dlib shape predictor (this may take a while)...")
 
