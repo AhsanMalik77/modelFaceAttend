@@ -32,3 +32,13 @@ Thumbs.db
 
 # Railway build
 railway.json
+*.rar
+*.zip
+*.pkl
+*.npy
+*.dat
+*.pt
+*.h5
+__pycache__/
+venv/
+.env
