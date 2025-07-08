@@ -1,0 +1,10 @@
+Flask>=1.1.2
+flask_cors>=4.0.1
+facenet-pytorch>=2.5.2
+torch>=1.9.0
+torchvision>=0.10.0
+joblib>=1.0.0
+Pillow>=5.2.0
+opencv-python>=4.5.5.64
+numpy>=1.14.0
+gunicorn>=20.1.0
